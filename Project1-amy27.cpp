@@ -29,13 +29,6 @@ int main(){
     string variableList[8] = {"ISSUE", "APPROACH", "WHOM", "SOLUTION", "ACTION",
                                "WHAT", "CONCERN", "TO"};
     
-    // solution is conclusion THEN
-    // action will be create laws or expand
-    
-    // use same class to create objects
-    // each rule in class will be an object
-    // optional - store maximum to check users input
-    
     string clauseVariableList[160] = {
         "ISSUE", "APPROACH", "WHOM", " ", " ",
         "ISSUE", "APPROACH", "WHOM", " ", " ",
@@ -76,29 +69,8 @@ int main(){
         "ISSUE", "APPROACH", "TO", "WHAT", " ",
     };
     
-    
-    
-    // in class assign a value
-    // leave variable list uninstanciated
-    
     // create object
     ForwardChaining forChain;
-    
-    // VARIABLE LIST SHOULD BE QUEUE
-    
-    
-    // list all possible values for variables
-    // after this assign int values to
-    
-    // push each statement on the queue
-    // compare each
-    
-    // conclusions for variables
-    // list all of them for solution variable
-    
-    // class needs to have a default constructor
-    // array of objects
-    // empty queue when something is false
     
     // print variable list
     forChain.printVariableList(variableList);
@@ -116,21 +88,9 @@ int main(){
             cout << "Variable " << k << " " << clauseVariableList[count] << endl;
         }
     }
-    
-
-    /****** INFERENCE SECTION *****************/
+   
     printf("ENTER CONDITION VARIABLE ");
     cin >> condition;
-    
-    
-    
-    // do switch statement 1-8
-    
-    
-    // class and store variable name, whether it's instanciated and the value for it
-    // user will see available options for one variable
-    
-    
     
     // create queue
     // put variable c on conditionalVariableQueue
